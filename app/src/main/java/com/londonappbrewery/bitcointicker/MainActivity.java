@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("Bitcoin", "Request fail! Status code: " + statusCode);
                 Log.d("Bitcoin", "Fail response: " + response);
                 Log.e("ERROR", e.toString());
-                //Toast.makeText(WeatherController.this, "Request Failed", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "Request Failed", Toast.LENGTH_SHORT).show();
             }
         });
 
